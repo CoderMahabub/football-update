@@ -116,6 +116,10 @@ header{
     margin: 20px 0;
     font-size: 18px;
     padding: 10px;
+    transition: 1s;
+}
+.social-icons a:hover i{
+    color: #E02C6D;
 }
 .footer-section span{
     font-size: 18px;
