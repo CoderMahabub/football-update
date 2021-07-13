@@ -1,0 +1,122 @@
+/* Google Font = Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Reusable Styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1050px;
+    margin: auto;
+}
+.link-button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+.detail-info{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Header Style Starts Here */
+header{
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.header-section{
+    width: 1150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    grid-gap: 100px;
+    padding: 85px;
+}
+
+.header-left h1{
+    color: #fff;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.header-right img{
+    width: 556px;
+    height: 438px;
+}
+
+/* Players Style Starts Here*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-row-gap: 27px;
+    margin-bottom: 165px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+/* HightLight Style Starts Here*/
+.highlight{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 65px;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.highlight-title{
+    color: #0A0826;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.highlight-right img{
+    width: 567px;
+    height: 427px;
+}
+.detail-info{
+    margin-bottom: 24px;
+}
+/* Footer's Style Starts Here  */
+.footer-section{
+    width: 485px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 60px;
+    
+}
+.footer-section img{
+    width: 227.82px;
+    height: 67.42px;
+    margin: auto;
+}
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 14px;
+}
+.social-icons i{
+    color: #969BAB;
+    background: #0b0d172c;
+    border-radius: 50%;
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 10px;
+}
+.footer-section span{
+    font-size: 18px;
+}
