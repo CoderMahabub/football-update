@@ -1,7 +1,11 @@
-/* Google Font = Poppins */
+/* ------------------------------*\
+    Google Font = Poppins 
+*\-------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
-/* Reusable Styles */
+/* ------------------------------*\
+    Reusable Styles Properties
+*\-------------------------------*/
 body{
     margin: 0;
     padding: 0;
@@ -31,7 +35,10 @@ body{
     margin-top: 16px;
     text-decoration: underline;
 }
-/* Header Style Starts Here */
+
+/* ------------------------------*\
+    Header Style Starts Here
+*\-------------------------------*/
 header{
     background-color: #2D25A0;
     margin-bottom: 70px;
@@ -43,24 +50,22 @@ header{
     grid-gap: 100px;
     padding: 85px 0;
 }
-
 .header-section:hover img{
-    transform: rotate(360deg) scale(1.1);
-    transition: transform 2s ease-in;
+    transform: rotateY(180deg) scale(1.1);
+    transition: transform 1s ease-out;
 }
-
 .header-left h1{
     color: #fff;
     font-size: 64px;
     margin-bottom: 25px;
 }
-
 .header-right img{
     width: 556px;
     height: 438px;
 }
-
-/* Players Style Starts Here*/
+/* ------------------------------*\
+    Players Style Starts Here
+*\-------------------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -81,12 +86,16 @@ header{
     margin-top: 16px;
     margin-bottom: 0;
 }
-/* HightLight Style Starts Here*/
+
+/* ------------------------------*\
+    HightLight Style Starts Here
+*\-------------------------------*/
 .highlight{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 65px;
     align-items: center;
+    justify-content: center;
     margin-bottom: 165px;
 }
 .highlight-title{
@@ -102,11 +111,12 @@ header{
     margin-bottom: 24px;
 }
 
-/* Latest News Style Starts Here  */
+/* ------------------------------*\
+    Latest News Style Starts Here
+*\-------------------------------*/
 .latest-news-section{
     margin-bottom: 165px;
 }
-
 .latest-newses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -134,7 +144,10 @@ a.news-link:hover{
     text-decoration: underline;
     color: #000;
 }
-/* Subscribe Us Section Starts Here  */
+
+/* ------------------------------*\
+ Subscribe Us Section Starts Here
+*\-------------------------------*/
 .subscribe-us h2{
     text-decoration: none;
     margin-bottom: 0;
@@ -150,32 +163,28 @@ a.news-link:hover{
     margin-bottom: 30px;
     color: #6C6C6C;
 }
-
 #input-email {
     text-align: center;
     padding: 10px 24px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-
 .subscribe-us input, .subscribe-us:focus input {
     border: 1px solid #FE4C2F;
     font-size: 16px;
 }
-input[type=email]:focus{
-    border: 1px solid #FE4C2F;
-}
 
-/* Footer's Style Starts Here  */
+/* ------------------------------*\
+    Footer's Style Starts Here
+*\-------------------------------*/
 .footer-section{
     width: 485px;
     display: flex;
     justify-content: center;
     flex-direction:column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 165px;
     text-align: center;
-    
 }
 .footer-section img{
     width: 227.82px;
@@ -203,17 +212,14 @@ input[type=email]:focus{
 .footer-section span{
     font-size: 18px;
 }
-/* Responsive Style Starts Here */
 
-/* Responsive For Mobile Device  */
+/* ------------------------------------------*\
+    Responsive For Mobile Devices Starts Here
+*\-------------------------------------------*/
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
     }
-    /* .header-section{
-        width: 329px;
-        min-height: 259px;
-    } */
     .header-section, .players, .highlight, .latest-newses{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -232,6 +238,19 @@ input[type=email]:focus{
     .player{
         margin: 0 15px;
     }
+    .highlight-title{
+        font-size: 30px;
+    }
+    .hightlight-left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .highlight-right img {
+        width: 90%;
+        height: 248px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .single-news{
         margin: 0 15px;
     }
@@ -242,3 +261,6 @@ input[type=email]:focus{
         padding-left: 20px;
     }
 }
+    /* ---------------------------------*\
+        Styles Done For The Time Being
+    *\----------------------------------*/
